@@ -7,7 +7,7 @@ day = gets.chomp.to_i
 
 birthday = Time.new(year, month, day)
 now = Time.new
-while  birthday < now
+while birthday < now
   puts birthday.strftime("%Y年%m月%d日") + "はあなたの誕生日です。おめでとう！"
   birthday += (60 * 60 * 24 * 365)
 end

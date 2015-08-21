@@ -9,7 +9,7 @@ end
 
 for i in 0...array.size
   for j in 0...array.size - 1
-    if array[j] > array[j + 1] then
+    if array[j] > array[j + 1]
       tmp = array[j]
       array[j] = array[j + 1]
       array[j + 1] = tmp

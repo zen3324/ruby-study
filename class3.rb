@@ -1,5 +1,4 @@
 class OrangeTree
-
   def initialize
     @height = 0
     @year = 0
