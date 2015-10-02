@@ -1,4 +1,5 @@
 class Dragon
+  attr_reader :stuffInBelly, :stuffInIntestine
 
   def initialize name
     @name = name
@@ -112,22 +113,22 @@ class Dragon
 
 end
 
-puts "ドラゴンに名前をつけてください"
-pet = Dragon.new(gets.chomp)
-while true
-
-  case gets.chomp
-  when "feed"
-    pet.feed
-  when "walk"
-    pet.walk
-  when "putToBed"
-    pet.putToBed
-  when "toss"
-    pet.toss
-  when "rock"
-    pet.rock
-  else
-    puts "そのコマンドはありません"
-  end
-end
+# puts "ドラゴンに名前をつけてください"
+# pet = Dragon.new(gets.chomp)
+# while true
+#
+#   case gets.chomp
+#   when "feed"
+#     pet.feed
+#   when "walk"
+#     pet.walk
+#   when "putToBed"
+#     pet.putToBed
+#   when "toss"
+#     pet.toss
+#   when "rock"
+#     pet.rock
+#   else
+#     puts "そのコマンドはありません"
+#   end
+# end
